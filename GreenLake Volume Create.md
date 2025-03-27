@@ -1,11 +1,57 @@
-# 🚀 GreenLake Storage Management
+# 🚀 HPE GreenLake for Block Storage UI 
 
-![image](https://github.com/user-attachments/assets/b3bbd0f2-8e85-4076-8d93-d83fae9087e7)  
-![image](https://github.com/user-attachments/assets/00af693d-4f15-4c01-855f-4456d56b92da)  
-![image](https://github.com/user-attachments/assets/265a3183-0490-4e66-9339-7f672fd8a182)  
+## Dashboard - Overview, alerts, and tasks 
+![image](https://github.com/user-attachments/assets/75dcf54c-7889-41bd-9184-8bfebc648c12)
+## View performance details 
+![image](https://github.com/user-attachments/assets/114b0d53-5ba9-4bc2-8a3b-887a0af6dda1)
+## View Capacity details
+![image](https://github.com/user-attachments/assets/ebbebb62-bf6e-4d13-bb64-edfad9379840)
+## Storage screen-view and create host and application sets
+![image](https://github.com/user-attachments/assets/acdadf92-d72a-4c62-a1f3-b72ce588b174)
+## Configure replication partner system
+![image](https://github.com/user-attachments/assets/f1d99422-6058-4885-b5a2-75491b56e906)
+## Select and configure partner system, links, policies, and witness service 
+![image](https://github.com/user-attachments/assets/5381ee92-d518-419b-bb06-b7ee95b8f6a9)
+## Systems screen - Service and maintenance actions
+![image](https://github.com/user-attachments/assets/54866735-6bea-4d3c-8eaa-3f5b329ea4a6)
 
 ---
+# HPE GreenLake for Block Storage compute IO module details
+![image](https://github.com/user-attachments/assets/915d4c07-98de-4668-841c-c3a1ad65a422)
 
+# Multi-chassis, non-switched systems 
+
+
+![image](https://github.com/user-attachments/assets/df4a80cf-db0f-442c-b05e-363f0cd563fc)
+
+## 공통 사항
+
+* 섀시(인클로저)당 최소 8개의 동일한 크기의 SSD 필요
+* 기존과 동일한 용량의 SSD 2개 단위로 업그레이드
+* 섀시당 2개 단위로 업그레이드 권장
+* 섀시 전체에 대칭적으로 드라이브 분산 권장 (비효율적인 용량 사용 및 병목 현상 방지)
+* 사용 가능한 SSD 용량: 1.92TB, 3.84TB, 7.68TB, 15.36TB
+
+## 1 Chassis 구성
+
+* 최소 드라이브 수: 8개
+* 최대 드라이브 수: 24개
+* 최적 업그레이드 단위: 2개
+
+## 2 Chassis 구성
+
+* 최소 드라이브 수: 16개
+* 최대 드라이브 수: 48개
+* 최적 업그레이드 단위: 4개
+
+## 3 Chassis 구성
+
+* 최소 드라이브 수: 24개
+* 최대 드라이브 수: 72개
+* 자동 구성: HA 케이지(인클로저) 및 RAID 6 4+2로 자동 구성
+* 최적 업그레이드 단위: 6개
+
+---
 # 📌 GreenLake 활용하여 Volume 생성
 
 ## 1️⃣ GreenLake Storage 에 접속하여 Volume을 생성할 모델 선택
